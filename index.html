@@ -355,7 +355,7 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
     </div>
     <div class="form-group">
       <label>كلمة المرور</label>
-      <input type="password" id="adminPassword" placeholder="أدخل كلمة المرور" onkeydown="if(event.key===\'Enter\')verifyPassword()">
+      <input type="password" id="adminPassword" placeholder="أدخل كلمة المرور" onkeydown="if(event.key==='Enter')verifyPassword()">
     </div>
     <div id="passwordError" style="color:#ff6b6b;font-size:0.8rem;display:none;text-align:center;margin-bottom:10px;">كلمة المرور غير صحيحة</div>
     <button class="btn-add" onclick="verifyPassword()">🔓 دخول</button>
@@ -367,10 +367,10 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">🌿 من نحن</div>
-      <button class="modal-close" onclick="closePageModal(\'about\')">✕</button>
+      <button class="modal-close" onclick="closePageModal('about')">✕</button>
     </div>
     <div style="line-height:2;color:rgba(245,240,232,0.85);font-size:0.95rem;">
-      <h3 style="color:var(--gold-light);font-family:\'Amiri\',serif;margin-bottom:12px;">مرحباً بكم في روضة الإيمان</h3>
+      <h3 style="color:var(--gold-light);font-family:'Amiri',serif;margin-bottom:12px;">مرحباً بكم في روضة الإيمان</h3>
       <p style="margin-bottom:15px;">روضة الإيمان هو بوابة إسلامية شاملة تهدف إلى جمع أفضل المواقع والتطوعات الإسلامية في مكان واحد لخدمة المسلمين في أنحاء العالم.</p>
       <p style="margin-bottom:15px;">نؤمن بأن الصدقة الجارية من أعظم الأعمال التي يثاب عليها المسلم بعد موته، لذلك نسعى لتسهيل الوصول إلى المواقع التي تساعد في الدعاء للأموات والترحم عليهم.</p>
       <p style="margin-bottom:15px;">يحتوي الموقع على مجموعة مختارة من المواقع الإسلامية التي تشمل:</p>
@@ -389,10 +389,10 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">🛡️ سياسة الخصوصية</div>
-      <button class="modal-close" onclick="closePageModal(\'privacy\')">✕</button>
+      <button class="modal-close" onclick="closePageModal('privacy')">✕</button>
     </div>
     <div style="line-height:2;color:rgba(245,240,232,0.85);font-size:0.95rem;">
-      <h3 style="color:var(--gold-light);font-family:\'Amiri\',serif;margin-bottom:12px;">سياسة الخصوصية — روضة الإيمان</h3>
+      <h3 style="color:var(--gold-light);font-family:'Amiri',serif;margin-bottom:12px;">سياسة الخصوصية — روضة الإيمان</h3>
       <p style="margin-bottom:12px;"><strong style="color:var(--gold-light)">آخر تحديث:</strong> مايو 2025</p>
       <h4 style="color:var(--gold-light);margin:15px 0 8px;">1. المعلومات التي نجمعها</h4>
       <p style="margin-bottom:12px;">لا يقوم موقع روضة الإيمان بجمع أي معلومات شخصية من المستخدمين بشكل تلقائي. قد نستخدم ملفات الارتباط (Cookies) لتحسين تجربة التصفح وحفظ تفضيلاتك.</p>
@@ -410,10 +410,10 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">📜 شروط الاستخدام</div>
-      <button class="modal-close" onclick="closePageModal(\'terms\')">✕</button>
+      <button class="modal-close" onclick="closePageModal('terms')">✕</button>
     </div>
     <div style="line-height:2;color:rgba(245,240,232,0.85);font-size:0.95rem;">
-      <h3 style="color:var(--gold-light);font-family:\'Amiri\',serif;margin-bottom:12px;">شروط الاستخدام — روضة الإيمان</h3>
+      <h3 style="color:var(--gold-light);font-family:'Amiri',serif;margin-bottom:12px;">شروط الاستخدام — روضة الإيمان</h3>
       <p style="margin-bottom:12px;">باستخدامك لموقع روضة الإيمان، فإنك توافق على هذه الشروط والأحكام.</p>
       <p style="margin-bottom:12px;">يُسمح باستخدام الموقع للأغراض الشخصية والتعليمية فقط. جميع الروابط الموجودة على الموقع تؤدي إلى مواقع خارجية ولسنا مسؤولين عن محتواها.</p>
       <p style="margin-bottom:12px;">التصاميم والشعارات الموجودة على موقع روضة الإيمان محمية بحقوق الملكية الفكرية.</p>
@@ -425,7 +425,7 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">📧 تواصل معنا</div>
-      <button class="modal-close" onclick="closePageModal(\'contact\')">✕</button>
+      <button class="modal-close" onclick="closePageModal('contact')">✕</button>
     </div>
     <div style="line-height:2;color:rgba(245,240,232,0.85);font-size:0.95rem;">
       <p style="margin-bottom:15px;">يسعدنا تواصلكم معنا! يمكنكم إرسال استفساراتكم واقتراحاتكم عبر النموذج أدناه أو عبر البريد الإلكتروني مباشرة.</p>
@@ -465,11 +465,11 @@ footer { position: relative; z-index: 10; text-align: center; padding: 50px 20px
 
 <script>
 (function() {
-  var c = document.getElementById(\'stars\');
+  var c = document.getElementById('stars');
   for (var i = 0; i < 80; i++) {
-    var s = document.createElement(\'div\');
-    s.className = \'star\';
-    s.style.cssText = \'left:\'+Math.random()*100+\'%;top:\'+Math.random()*100+\'%;--dur:\'+(2+Math.random()*4)+\'s;--delay:\'+Math.random()*5+\'s;\';
+    var s = document.createElement('div');
+    s.className = 'star';
+    s.style.cssText = 'left:'+Math.random()*100+'%;top:'+Math.random()*100+'%;--dur:'+(2+Math.random()*4)+'s;--delay:'+Math.random()*5+'s;';
     c.appendChild(s);
   }
 })();
@@ -487,66 +487,66 @@ var sites = [
 ];
 
 function requestDashboardAccess() {
-  document.getElementById(\'passwordModal\').classList.add(\'open\');
-  document.body.style.overflow = \'hidden\';
-  document.getElementById(\'adminPassword\').value = \'\';
-  document.getElementById(\'passwordError\').style.display = \'none\';
-  setTimeout(function(){ document.getElementById(\'adminPassword\').focus(); }, 300);
+  document.getElementById('passwordModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  document.getElementById('adminPassword').value = '';
+  document.getElementById('passwordError').style.display = 'none';
+  setTimeout(function(){ document.getElementById('adminPassword').focus(); }, 300);
 }
 function closePasswordModal() {
-  document.getElementById(\'passwordModal\').classList.remove(\'open\');
-  document.body.style.overflow = \'\';
+  document.getElementById('passwordModal').classList.remove('open');
+  document.body.style.overflow = '';
 }
 function verifyPassword() {
-  var pw = document.getElementById(\'adminPassword\').value;
-  if (pw === \'rawdat2025\') { closePasswordModal(); openDashboard(); }
-  else { document.getElementById(\'passwordError\').style.display = \'block\'; document.getElementById(\'adminPassword\').value = \'\'; document.getElementById(\'adminPassword\').focus(); }
+  var pw = document.getElementById('adminPassword').value;
+  if (pw === 'rawdat2025') { closePasswordModal(); openDashboard(); }
+  else { document.getElementById('passwordError').style.display = 'block'; document.getElementById('adminPassword').value = ''; document.getElementById('adminPassword').focus(); }
 }
-document.getElementById(\'passwordModal\').addEventListener(\'click\', function(e) { if (e.target === this) closePasswordModal(); });
+document.getElementById('passwordModal').addEventListener('click', function(e) { if (e.target === this) closePasswordModal(); });
 
 function openPageModal(page) {
-  var m = document.getElementById(page+\'Modal\');
-  if (m) { m.classList.add(\'open\'); document.body.style.overflow=\'hidden\'; }
+  var m = document.getElementById(page+'Modal');
+  if (m) { m.classList.add('open'); document.body.style.overflow='hidden'; }
 }
 function closePageModal(page) {
-  var m = document.getElementById(page+\'Modal\');
-  if (m) { m.classList.remove(\'open\'); document.body.style.overflow=\'\'; }
+  var m = document.getElementById(page+'Modal');
+  if (m) { m.classList.remove('open'); document.body.style.overflow=''; }
 }
-[\'about\',\'privacy\',\'terms\',\'contact\'].forEach(function(p){
-  var m=document.getElementById(p+\'Modal\');
-  if(m) m.addEventListener(\'click\',function(e){if(e.target===this)closePageModal(p);});
+['about','privacy','terms','contact'].forEach(function(p){
+  var m=document.getElementById(p+'Modal');
+  if(m) m.addEventListener('click',function(e){if(e.target===this)closePageModal(p);});
 });
 
 function sendContactForm(e) {
-  var n=document.getElementById(\'contactName\').value,em=document.getElementById(\'contactEmail\').value,s=document.getElementById(\'contactSubject\').value,msg=document.getElementById(\'contactMessage\').value;
-  window.location.href=\'mailto:emadh5156@gmail.com?subject=\'+encodeURIComponent(s)+\'&body=\'+encodeURIComponent(\'الاسم: \'+n+\'\nالبريد: \'+em+\'\n\n\'+msg);
-  e.preventDefault(); alert(\'سيتم فتح برنامج البريد الإلكتروني لإرسال رسالتك.\'); return false;
+  var n=document.getElementById('contactName').value,em=document.getElementById('contactEmail').value,s=document.getElementById('contactSubject').value,msg=document.getElementById('contactMessage').value;
+  window.location.href='mailto:emadh5156@gmail.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent('الاسم: '+n+'\nالبريد: '+em+'\n\n'+msg);
+  e.preventDefault(); alert('سيتم فتح برنامج البريد الإلكتروني لإرسال رسالتك.'); return false;
 }
 
-function openDashboard() { renderSitesList(); document.getElementById(\'dashboardModal\').classList.add(\'open\'); document.body.style.overflow=\'hidden\'; }
-function closeDashboard() { document.getElementById(\'dashboardModal\').classList.remove(\'open\'); document.body.style.overflow=\'\'; }
+function openDashboard() { renderSitesList(); document.getElementById('dashboardModal').classList.add('open'); document.body.style.overflow='hidden'; }
+function closeDashboard() { document.getElementById('dashboardModal').classList.remove('open'); document.body.style.overflow=''; }
 function renderSitesList() {
-  document.getElementById(\'sitesList\').innerHTML = sites.map(function(s,i){
-    return \'<div class="modal-site-item"><div class="modal-site-num">\'+(i+1)+\'</div><div class="modal-site-info"><div class="modal-site-name">\'+s.name+\'</div><div class="modal-site-url">\'+s.url.substring(0,40)+\'...</div></div><div class="modal-site-actions"><a href="\'+s.url+\'" target="_blank" class="btn-sm">فتح</a><button class="btn-sm danger" onclick="removeSite(\'+s.id+\')">حذف</button></div></div>\';
-  }).join(\'\');
+  document.getElementById('sitesList').innerHTML = sites.map(function(s,i){
+    return '<div class="modal-site-item"><div class="modal-site-num">'+(i+1)+'</div><div class="modal-site-info"><div class="modal-site-name">'+s.name+'</div><div class="modal-site-url">'+s.url.substring(0,40)+'...</div></div><div class="modal-site-actions"><a href="'+s.url+'" target="_blank" class="btn-sm">فتح</a><button class="btn-sm danger" onclick="removeSite('+s.id+')">حذف</button></div></div>';
+  }).join('');
 }
-function removeSite(id) { if(confirm(\'هل تريد حذف هذا الموقع؟\')) { sites=sites.filter(function(s){return s.id!==id;}); renderSitesList(); } }
+function removeSite(id) { if(confirm('هل تريد حذف هذا الموقع؟')) { sites=sites.filter(function(s){return s.id!==id;}); renderSitesList(); } }
 function addSite() {
-  var n=document.getElementById(\'newName\').value.trim(),u=document.getElementById(\'newUrl\').value.trim(),d=document.getElementById(\'newDesc\').value.trim(),t=document.getElementById(\'newTag\').value.trim();
-  if(!n||!u){alert(\'يرجى إدخال الاسم والرابط\');return;}
+  var n=document.getElementById('newName').value.trim(),u=document.getElementById('newUrl').value.trim(),d=document.getElementById('newDesc').value.trim(),t=document.getElementById('newTag').value.trim();
+  if(!n||!u){alert('يرجى إدخال الاسم والرابط');return;}
   var nid=Math.max.apply(null,sites.map(function(s){return s.id}))+1;
   sites.push({id:nid,name:n,url:u,desc:d,tag:t});
   renderSitesList();
-  [\'newName\',\'newUrl\',\'newDesc\',\'newTag\'].forEach(function(x){document.getElementById(x).value=\'\';});
-  alert(\'✅ تم إضافة الموقع بنجاح!\');
+  ['newName','newUrl','newDesc','newTag'].forEach(function(x){document.getElementById(x).value='';});
+  alert('✅ تم إضافة الموقع بنجاح!');
 }
-document.getElementById(\'dashboardModal\').addEventListener(\'click\',function(e){if(e.target===this)closeDashboard();});
+document.getElementById('dashboardModal').addEventListener('click',function(e){if(e.target===this)closeDashboard();});
 
-if(!localStorage.getItem(\'cookieAccepted\')) setTimeout(function(){document.getElementById(\'cookieNotice\').classList.add(\'show\');},1500);
-function acceptCookie(){localStorage.setItem(\'cookieAccepted\',\'1\');document.getElementById(\'cookieNotice\').classList.remove(\'show\');}
+if(!localStorage.getItem('cookieAccepted')) setTimeout(function(){document.getElementById('cookieNotice').classList.add('show');},1500);
+function acceptCookie(){localStorage.setItem('cookieAccepted','1');document.getElementById('cookieNotice').classList.remove('show');}
 
-var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.style.animationPlayState=\'running\';});},{threshold:0.1});
-document.querySelectorAll(\'.site-card\').forEach(function(c){c.style.animationPlayState=\'paused\';obs.observe(c);});
+var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.style.animationPlayState='running';});},{threshold:0.1});
+document.querySelectorAll('.site-card').forEach(function(c){c.style.animationPlayState='paused';obs.observe(c);});
 </script>
 </body>
 </html>
